@@ -61,7 +61,7 @@ fun LoginView() {
                     var password by remember {
                         mutableStateOf("")
                     }
-                    var isPasswordVisible by remember {
+                    val isPasswordVisible by remember {
                         mutableStateOf(false)
                     }
                     TextField(
